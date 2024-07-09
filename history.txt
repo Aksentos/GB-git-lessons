@@ -1,14 +1,24 @@
-https://github.com/Aksentos/GB-git-lessons.git
-
-
-   3 git init
-   4 git status
-   5 git remote add origin https://github.com/ksentos/-git-lessons.git
-   6 git remote -v
-   7 git add .
-   8 git commit -m 'test.txt added'
-   9 git log --oneline --all --graph
-  10 git fetch --all
-  11 git remote -v
-  12 git remote remove origin
-  13 -history
+git status
+git add .
+git commit -m "add history"
+git remote -v
+git remote add https://github.com/Aksentos/GB-git-lessons.git
+git remote add origin https://github.com/Aksentos/GB-git-lessons.git
+git remote -v
+git log --oneline --all --graph
+git fetch --all
+git log --oneline --all --graph
+git push
+git push --set-upstream origin master
+git log --oneline --all --graph
+git merge origin/main
+* fatal: refusing to merge unrelated histories
+git merge origin/main --allow-unrelated-histories
+git log --oneline --all --graph
+git merge origin/homebranch
+git merge origin/main
+git log --oneline --all --graph
+git push
+git fetch --all
+git log --oneline --all --graph
+doskey /history > history.txt
