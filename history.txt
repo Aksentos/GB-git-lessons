@@ -1,0 +1,24 @@
+git status
+git add .
+git commit -m "add history"
+git remote -v
+git remote add https://github.com/Aksentos/GB-git-lessons.git
+git remote add origin https://github.com/Aksentos/GB-git-lessons.git
+git remote -v
+git log --oneline --all --graph
+git fetch --all
+git log --oneline --all --graph
+git push
+git push --set-upstream origin master
+git log --oneline --all --graph
+git merge origin/main
+* fatal: refusing to merge unrelated histories
+git merge origin/main --allow-unrelated-histories
+git log --oneline --all --graph
+git merge origin/homebranch
+git merge origin/main
+git log --oneline --all --graph
+git push
+git fetch --all
+git log --oneline --all --graph
+doskey /history > history.txt
